@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/060/802/original/backgroundimg.jpg?1672431475");
+}
+
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  color: #fff;
+  text-shadow: 3px 01px 8px #2521ec;
+  font-weight: bold;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 23em;
+  /* height: 18em;*/
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  border: 6px solid white;
+  border-radius: 3px;
+  box-shadow: 5px 10px 20px #343232;
+}
+
+.gallery-img:hover {
+  transform: scale(1.2);
+}
